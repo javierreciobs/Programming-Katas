@@ -17,6 +17,7 @@ def longest_word(string):
     return longest
 
 #Senior version
+# max() with len criteron
 
 def senior_longest_word(string):
     return "" if string == "" else max(string.split(), key=len)
