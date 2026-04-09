@@ -25,3 +25,4 @@ def test_return_python_is_fun_in_capitalize_with_senior_capitalize_word():
 def test_return_quotes_when_empty_input_with_senior_capitalize_word():
     assert senior_capitalize_word("") == ""
 
+
