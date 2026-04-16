@@ -35,4 +35,3 @@ def senior_group_by(elements, key_fn):
         grouped.setdefault(key_fn(e), []).append(e)
     return grouped
 
-print(senior_group_by([1, 2, 3, 4, 5], lambda x: x % 2))
